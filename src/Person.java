@@ -5,8 +5,9 @@ public class Person {
 	private String first;
 	private String last;
 	
+	public Person (String first, String last) {
+	}
 	
-
 	
 //	•	Create a class named Person with these constructors and methods:
 //		public Person(String first, String last)
