@@ -8,6 +8,13 @@ public class PersonManagerApp {
 		String choice = "y";
 		
 		while(choice.equalsIgnoreCase("y")) {
+			
+			String criteria = Console.getString("Create customer or employee? (c/e): ",
+					"g","l");
+				if (criteria.equalsIgnoreCase("c")) {
+
+					String customer = Console.getString("First Name: ");
+
 		
 		choice = Console.getString("Continue (y/n)?", "y", "n");
 
@@ -15,6 +22,6 @@ public class PersonManagerApp {
 
 		System.out.println("Bye!");
 
+		}
 	}
-
 }
